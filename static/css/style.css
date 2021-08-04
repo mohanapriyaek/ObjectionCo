@@ -1,0 +1,17 @@
+/* demo styles */
+  
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+body{
+  background: -webkit-linear-gradient(left, #a97cf1, #6b28aa);
+  background: linear-gradient(to right, #a97cf1, #6b28aa);
+  font-family: 'Playfair Display';
+  color:rgb(45, 28, 73) !important;
+}
+
+.logo {
+  transition: transform .2s; /* Animation */
+}
+
+.logo:hover {
+  transform: scale(1.15); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
